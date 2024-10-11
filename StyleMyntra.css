@@ -6,7 +6,6 @@
 }
 .navbar{
      height: 80px;
-     /* background-color:red; */
      display: flex;
      font-size: 16px;
      align-items: center; 
@@ -40,7 +39,6 @@
      align-items: center;
      width:600px;
      height: 50px;
-     /* border: 1px solid black; */
      background-color:aliceblue;
      border-radius: 10px;
 }
@@ -60,7 +58,6 @@
      align-items: center;
      justify-content: center;
      font-size: larger;
-     /* border-radius: 4px; */
 }
 
 .profile{
@@ -102,8 +99,8 @@
 }
 
 .hero-section{
-     background-image: url("hero_image.jpg");
-     background-size:cover;
+     background-image: url("./assets/hero_image.jpg");
+     background-size: cover;
      height: 400px;
      margin-top:20px;
 }
@@ -121,7 +118,7 @@
 .images{
      margin-top: 50px;
      height: 400px;
-     background-image: url("image.png");
+     background-image: url("./assets/image.png");
      background-size: cover;
      margin-bottom: 60px;
 }
