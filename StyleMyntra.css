@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* border: border-box; */
+
+}
+.navbar{
+     height: 80px;
+     /* background-color:red; */
+     display: flex;
+     font-size: 16px;
+     align-items: center; 
+     justify-content: space-evenly; 
+}
+
+.nav-log{
+     width: 80px;
+     height: 20px;
+}
+
+.img{
+     background-size: cover;
+     width: 70px;
+     height: 30px; 
+}
+
+.nav-address{
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     font-weight:bold;
+}
+
+.border:hover{
+     border: 5px solid palevioletred;
+}
+
+.nav-search{
+     display: flex;
+     align-items: center;
+     width:600px;
+     height: 50px;
+     /* border: 1px solid black; */
+     background-color:aliceblue;
+     border-radius: 10px;
+}
+
+.search-bar{
+     width: 600px;
+     height: 40px; 
+     border: none;
+     font-size: 15px;
+     border-radius: 10px;
+     background-color:aliceblue;
+}
+.glass{
+     width: 40px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: larger;
+     /* border-radius: 4px; */
+}
+
+.profile{
+     width: 60px;
+     height: 50px;
+     font-size: 15px;
+     text-align: center;
+}
+.user{
+     font-size:1.5rem;
+     gap: 1rem;
+}
+.para{
+    font-weight: bold;
+}
+
+.wishlist{
+     width: 65px;
+     height: 50px;
+     font-size: 15px;
+     text-align: center;
+}
+
+.heart{
+     font-size:1.5rem;
+     gap: 1rem;
+}
+
+.bag{
+     width: 60px;
+     height: 50px;
+     font-size: 15px;
+     text-align: center;
+}
+
+.bag-img{
+     font-size:1.5rem;
+     gap: 1rem;
+}
+
+.hero-section{
+     background-image: url("hero_image.jpg");
+     background-size:cover;
+     height: 400px;
+     margin-top:20px;
+}
+
+.container{
+     margin-top: 60px;
+}
+.cont-para{
+     font-size: 4rem;
+     font-weight:bold;
+     margin: 0 50px 0 50px;
+     color: rgb(33, 106, 241);
+}
+
+.images{
+     margin-top: 50px;
+     height: 400px;
+     background-image: url("image.png");
+     background-size: cover;
+     margin-bottom: 60px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 2rem 3rem 2rem;
+}
+
+.content
+{
+     height: 500px;
+     width:300px;
+     padding-left:2rem ;
+     padding-top: 2rem;
+     background-color:rgb(73, 102, 123);
+     margin-left:1rem;
+     margin-bottom: 2rem;
+}
+
+.content p{
+     font-size: 1.5rem;
+     color: wheat;
+     text-align: center;
+}
+h1{
+     color: wheat;
+}
+.content img{
+     height: 300px;
+     width: 90%;
+     transition: all 2s;
+} 
+.content img:hover{
+     scale: 1.1;
+}
+
+footer{
+     height: 800px;
+     background-color: whitesmoke;
+}    
+
+.footer{
+     padding-top: 3rem;
+     padding-left: 15rem;
+     display: flex;
+     flex-wrap: wrap;
+}
+.lists{
+     width: 20%;
+     height: 300px;
+     margin-right: 5rem;
+}
+.lists li:hover{
+     text-decoration: underline; 
+     cursor: pointer;
+}
+.lists p{
+     font-size: large;
+     font-weight: bold;
+}
+
+ul{
+     font-size: large;
+     padding: 0;
+}
+li{
+     padding-bottom: 1rem;
+}
+.icon{
+     font-size: 2.5rem;
+     padding-right: 1.5rem;
+}
+.sub-div{
+     margin-top: 3rem;
+     font-size: large;
+     
+}
+
+.footer-para{
+     padding-top: 3rem;
+     /* padding-right: 5rem; */
+     padding-left:15rem ;
+     width: 75%;
+     font-size: large;
+     line-height: 2rem;
+}
